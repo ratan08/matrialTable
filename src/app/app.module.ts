@@ -10,12 +10,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent
   ],
   imports: [
-    
+    MatTableModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [MatTableModule],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
